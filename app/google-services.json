@@ -1,0 +1,44 @@
+{
+  "project_info": {
+    "project_number": "597625218529",
+    "firebase_url": "https://eventsonline.firebaseio.com",
+    "project_id": "eventsonline",
+    "storage_bucket": "eventsonline.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:597625218529:android:97c995db4e726c77",
+        "android_client_info": {
+          "package_name": "com.savali.eventonline"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "597625218529-6cq91iubeqm7di64oe5eo4n3rmcrg5s9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.savali.eventonline",
+            "certificate_hash": "65c2c56b38b95438c769aa6b4e229169083f3f31"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDKD5qzFrtKqOo7g_IZ1bDoT7Ts7V6D6uo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "597625218529-15juqjqgjpp25f6u85rip00kbk8ius7j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

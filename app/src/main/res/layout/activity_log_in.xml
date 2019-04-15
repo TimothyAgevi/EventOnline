@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:padding="30dp"
+    android:orientation="vertical"
+    android:background="@drawable/activity_color"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegistrationActivity">
+
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="150dp"
+        android:layout_height="97dp"
+        android:layout_marginLeft="80sp"
+        android:layout_marginTop="0dp"
+        app:srcCompat="@mipmap/ic_launcher_round" />
+
+    <EditText
+        android:layout_marginTop="60dp"
+        android:id="@+id/edtName"
+        android:layout_width="324dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edit_round"
+        android:ems="10"
+        android:hint="Name"
+        android:inputType="textPersonName"
+        android:padding="15dp"
+        android:textColor="#080505"
+        android:textColorHint="#080505"
+        android:textSize="20dp"
+        android:textStyle="italic|bold" />
+
+
+
+    <EditText
+        android:layout_marginTop="15dp"
+        android:id="@+id/editPass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/edit_round"
+        android:ems="10"
+        android:hint="Password..."
+        android:inputType="textPassword"
+        android:padding="15dp"
+        android:textColor="#080505"
+        android:textColorHint="#080505"
+        android:textStyle="italic|bold" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnLogin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_weight="1"
+            android:background="@drawable/button_round"
+            android:text="LOG IN"
+            android:textColor="@drawable/button_round"
+            android:textSize="25dp"
+            android:textStyle="bold|italic" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="0dp"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textreset"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="Forgot Password?"
+            android:textColor="#e7e1e1"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/tvReg"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:gravity="center_horizontal"
+            android:text="Register"
+            android:textColor="#e7e1e1"
+            android:textSize="20sp"
+            tools:text="Register" />
+
+        <TextView
+            android:id="@+id/tvinfo"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:text="No of Incorect Attempts: "
+            android:textColor="#e9e3e3"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.502"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btnlogin"
+            app:layout_constraintVertical_bias="0.392" />
+    </LinearLayout>
+
+</LinearLayout>
+

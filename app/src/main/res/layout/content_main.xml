@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#5bd748"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".MainActivity">
+
+
+    <ScrollView
+        android:id="@+id/scrollView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <HorizontalScrollView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="65sp"
+                android:background="#153cbc"
+                android:orientation="horizontal">
+
+                <Button
+
+                    android:layout_marginBottom="7dp"
+                    android:layout_marginTop="7sp"
+                    android:id="@+id/btnparty"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="7dp"
+                    android:background="@drawable/button_main"
+                    android:text="Party"
+                    android:textColor="#080101" />
+
+                <Button
+
+                    android:layout_marginBottom="7dp"
+                    android:layout_marginTop="7sp"
+                    android:id="@+id/btntech"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="7dp"
+                    android:background="@drawable/button_main"
+                    android:text="Techtalk"
+                    android:textColor="#080101" />
+
+                <Button
+
+                    android:layout_marginBottom="7dp"
+                    android:layout_marginTop="7sp"
+                    android:id="@+id/btnmotor"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="7dp"
+                    android:background="@drawable/button_main"
+                    android:text="carshows"
+                    android:textColor="#080101" />
+
+                <Button
+
+                    android:layout_marginBottom="7dp"
+                    android:layout_marginTop="7sp"
+                    android:id="@+id/btnwedding"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="7dp"
+                    android:background="@drawable/button_main"
+                    android:text="Weddings"
+                    android:textColor="#080101" />
+
+                <Button
+
+                    android:layout_marginBottom="7dp"
+                    android:layout_marginTop="7sp"
+                    android:id="@+id/btngrad"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="7dp"
+                    android:background="@drawable/button_main"
+                    android:text="Graduation"
+                    android:textColor="#080101" />
+
+                <Button
+
+                    android:layout_marginBottom="7dp"
+                    android:layout_marginTop="7sp"
+                    android:id="@+id/btncampaign"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="7dp"
+                    android:background="@drawable/button_main"
+                    android:text="Campaign"
+                    android:textColor="#080101" />
+
+                <Button
+
+                    android:layout_marginTop="7sp"
+                    android:layout_marginBottom="7dp"
+                    android:id="@+id/btnshow"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="7dp"
+                    android:background="@drawable/button_main"
+                    android:text="Roadshow"
+                    android:textColor="#080101" />
+
+                <Button
+
+                    android:layout_marginBottom="7dp"
+                    android:layout_marginTop="7sp"
+                    android:id="@+id/btnchurch"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="7dp"
+                    android:background="@drawable/button_main"
+                    android:text="Church"
+                    android:textColor="#080101" />
+
+                <Button
+
+                    android:layout_marginBottom="7dp"
+                    android:layout_marginTop="7sp"
+                    android:id="@+id/btnhealth"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="7dp"
+                    android:background="@drawable/button_main"
+                    android:text="Health"
+                    android:textColor="#080101"
+
+                    />
+
+                <Button
+
+                    android:layout_marginBottom="7dp"
+                    android:layout_marginTop="7sp"
+                    android:id="@+id/btnagri"
+                    android:layout_width="103dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="7dp"
+                    android:background="@drawable/button_main"
+                    android:text="Agriculture"
+                    android:textColor="#080101" />
+
+                <Button
+
+                    android:layout_marginBottom="7dp"
+                    android:layout_marginTop="7sp"
+                    android:id="@+id/btnhouse"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="7dp"
+                    android:background="@drawable/button_main"
+                    android:text="Housing"
+                    android:textColor="#080101" />
+
+                <Button
+
+                    android:layout_marginBottom="7dp"
+                    android:layout_marginTop="7sp"
+                    android:id="@+id/btnauc"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="7dp"
+                    android:background="@drawable/button_main"
+                    android:text="Auctions"
+                    android:textColor="#080101" />
+            </LinearLayout>
+        </HorizontalScrollView>
+    </ScrollView>
+
+    <ProgressBar
+        android:layout_centerInParent="true"
+        android:id="@+id/progress_circle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+
+</LinearLayout>
